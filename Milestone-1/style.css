@@ -1,3 +1,9 @@
+/* This things will style the whole page body */
+*{
+    margin: 0;
+    border: 0;
+}
+
 p{
     color: aqua;
     background-color: #cccdcf;
@@ -6,6 +12,7 @@ p{
     
 }
 
+/* use # to select the ID for use the style to the element of the html file */
 #small-paragraph{
     color: blueviolet;
     text-align: center;
@@ -14,4 +21,16 @@ p{
     border-radius: 25px;
     height: 50px;
 
+}
+
+/* use . to select the CLASS for use the style to the element of the html file */
+.Paragraph{
+    color: blueviolet;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
 }
